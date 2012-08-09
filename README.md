@@ -2,7 +2,7 @@
 
 This is the source code for a five minute lightning talk on clojure.
 
-Clojure is known being a lisp with rich immutable data structures, lazy evaluation, and java iterop
+Clojure is known being a lisp with rich immutable data structures, lazy evaluation, and java interop
 
 ## clojure syntax 101
 
@@ -35,7 +35,7 @@ user> (+ 1 1) ; function goes first! prefix notation
 user> (let [a 2] (+ a a))
 ;4
 
-;; java iterop
+;; java interop
 user> (Math/pow 2 4) ;Math.pow(2, 4);
 ;16.0
 user> (def now (java.util.Date.)) ;Date now = new java.util.Date();
